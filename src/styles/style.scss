@@ -1,0 +1,177 @@
+@font-face {
+    src: url(../fonts/open.ttf);
+    font-family: open; 
+   }
+@font-face{
+	src: url(../fonts/Hattori_Hanzo.otf);
+	font-family: Hanzo;
+}
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.wrapper{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color:white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main-header{
+	display:grid;
+	grid-template-columns: 20% 70% 10%;
+	padding: 25px 25px 65px 25px;
+}
+
+.head-title h1{
+	font-size: 40px;
+	font-family:open;
+}
+.head-title h1 a{
+	color:black;
+	text-decoration: none;
+	cursor: pointer;
+}
+adress{
+	color:gray
+}
+adress p:hover {
+	color:black;
+}
+.contacts a {
+	color:gray;
+	text-decoration: none;
+}
+
+.contacts a:hover{
+	color:black;
+}
+.number{
+	margin-top:20%;
+	
+}
+.number a{
+	color:gray;
+	text-decoration: none;
+}	
+.number a:hover{
+	color:black;
+}
+.nav-slide{
+	position:relative;
+	width:auto;
+}
+
+
+.head-slide{
+	position: relative;
+}
+.head-slider-pic{
+	width: 100%;
+	cursor: pointer;
+	height: 650px;
+	padding-right: 25px;
+}
+.head-slider-nav-pic{
+	width: 100%;
+	height: 125px;
+	cursor: pointer;
+}
+.head-pic-text{
+	position: absolute;
+	bottom:0;
+	margin-bottom:5px;
+	background:rgba(0,0,0,0.5);
+	color:white;
+	display:grid;
+	grid-template-columns: 70% 30%;
+	width:60%;
+	padding:10px;
+}
+.price{
+	color:#dfa100;
+}
+.main-content{
+	background-color: black;
+	color:white;
+	padding:25px;
+}
+.js-main-slider{
+	padding:15px;
+}
+.main-slider-pic{
+	width: 50%;
+}
+
+.main-footer{
+	background-color: black;
+	color:white;
+	display:grid;
+	grid-template-columns: 55% 45%;
+	padding:25px;
+}
+.foot-title{
+	justify-self: center;
+}
+.foot-form{
+	justify-self: center;
+}
+.hidden{
+	display:none;
+
+}
+#privacy{
+	padding:25px;
+	background-color: white;
+}
+li {
+    list-style-type: none; 
+   }
+.js-link-popup{
+	color:gray;
+}
+.copyright{
+	margin-top:170px;
+}
+
+.js-link-popup:hover{
+	color:white;
+}
+#sent{
+	color:green;
+	display:none;
+}
+
+.form-style{
+	display:grid;
+	grid-template-rows: 1fr 6fr 1fr;
+	row-gap: 15px;
+}
+textarea { 
+	width:100%;
+	height: 100%;
+	resize: none;
+	padding:5px; 
+}
+#email{
+	padding:5px; 
+}
+.submit{
+	border:none;
+	cursor:pointer;
+	color:white;
+	background-color: blue;
+	padding: 5px 15px;
+	border-radius: 5%;
+	-webkit-border-radius: 5%;
+	-moz-border-radius: 5%;
+	-ms-border-radius: 5%;
+	-o-border-radius: 5%;
+	justify-self: center;
+}
+.submit:hover{
+	background-color: rgb(0, 0, 133);
+	box-shadow: 0px 5px 15px 1px rgba(0, 200, 255, 0.3);
+}
